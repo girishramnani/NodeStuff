@@ -1,0 +1,19 @@
+{
+  "name": "Node_for_frontend",
+  "version": "0.0.0",
+  "description": "Example app",
+  "main": "index.js",
+  "dependencies": {
+    "async": "~1.4.2",
+    "express": "~4.13.3",
+    "lodash": "~3.10.1",
+    "aws": "0.0.3-2",
+    "request": "~2.61.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Girish Ramnani",
+  "license": "MIT"
+}

@@ -1,0 +1,33 @@
+<template name="posts">
+
+    {{#if currentUser}}
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#postModal">
+        Post on the wall
+    </button>
+    {{/if}}
+    <hr>
+
+
+    {{#each posts }}
+
+    <div class="row post">
+        <div class="col-md-1">
+            <img src="{{getProfileImg userId}}">
+        </div>
+        <div class="col-md-11">
+            <small>posted by {{ username }} at {{createdAt}}</small>
+            <p>{{body}}</p>
+        </div>
+
+    </div>
+        {{else}}
+        <p>No posts</p>
+
+    {{/each}}
+
+
+
+    {{> modal }}
+
+
+</template>
