@@ -1,0 +1,11 @@
+<template name="base">
+
+    {{# if Session "view" }}
+    {{> clock }}
+    {{/if }}
+        <!--From left to right-->
+    {{> team TeamImg="team1.gif" name="team_left"}}
+    {{> score}}
+    {{> team TeamImg="team2.jpg" name="team_right"}}
+
+</template>

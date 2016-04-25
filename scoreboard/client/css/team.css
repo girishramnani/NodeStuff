@@ -1,0 +1,22 @@
+
+
+.team-wrapper {
+    width: 30%;
+
+    display: inline-block;
+    vertical-align: middle;
+}
+.right {
+    float: right;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 80%;
+}
+.team-name {
+    text-align: center;
+}

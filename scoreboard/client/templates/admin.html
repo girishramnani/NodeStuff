@@ -1,0 +1,32 @@
+<template name="admin">
+
+    <div>
+        Score for team 1 :<input class="score-left-value" type="number" value="{{SSession "score_left"}}" min="0">
+        <br>
+        Name : <input class="team-left-value" value="{{SSession "team_left"}}">
+
+
+    </div>
+
+    <hr>
+    <div>
+        Score for team 2 :<input class="score-right-value" type="number" value="{{SSession "score_right"}}" min="0">
+        <br>
+        Name : <input class="team-right-value" value="{{SSession "team_right"}}">
+
+    </div>
+
+    <hr>
+    <br>
+    <div class="clock-control">
+        <input type="button" class="clock-start" value="start-clock"> |
+        <input type="button" class="clock-reset" value="reset-clock"> |
+        <input type="button" class="clock-stop" value="stop-clock">
+        <br>
+        <br>
+
+        <input type="number" min="0" max="10" class="tens" style="width:30px" value="{{SSession "tens" }}">
+        <input type="number" min="0" max="10" class="ones" style="width:30px" value="{{SSession "ones" }}">
+
+    </div>
+</template>

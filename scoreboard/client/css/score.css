@@ -1,0 +1,23 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.score {
+    font-size: 4em;
+    text-align: center;
+
+}
+ /*{*/
+    /*content: "";*/
+    /*display: inline-block;*/
+    /*height: 100%;*/
+    /*vertical-align: middle;*/
+/*}*/
+
+.score-wrapper {
+    display: inline-block;
+    width: 37%;
+
+}
